@@ -3,7 +3,7 @@ export const personalInfo = {
   preferredName: "Mapengo",
   title: "Informatics Student & Aspiring Software Developer",
   subheading: "Preparing for Year 3 Industrial Attachment (2026/2027)",
-  location: "Gwweru, Zimbabwe",
+  location: "Gweru, Zimbabwe",
   relocationWilling: true, // Willing to relocate for industrial attachment
   
   // Professional Bio
@@ -460,7 +460,7 @@ export const navLinks = [
   { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
   { label: "Education", href: "#education" },
-  { label: "Certifications", href: "#certifications" },
+  //{ label: "Certifications", href: "#certifications" },
   { label: "Achievements", href: "#achievements" },
   { label: "Contact", href: "#contact" }
 ];

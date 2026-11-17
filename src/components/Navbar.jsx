@@ -13,7 +13,7 @@ export default function Navbar({ onDownloadCvClick }) {
       setIsScrolled(window.scrollY > 30);
 
       // Simple active section detection
-      const sections = ['about', 'skills', 'projects', 'education', 'certifications', 'achievements', 'contact'];
+      const sections = ['about', 'skills', 'projects', 'education', 'achievements', 'contact'];
       const scrollPosition = window.scrollY + 200;
 
       for (const section of sections) {

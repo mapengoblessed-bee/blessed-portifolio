@@ -90,9 +90,7 @@ export default function Achievements() {
                 </p>
               </div>
 
-              <div style={{ marginTop: '1.25rem', paddingTop: '0.75rem', borderTop: '1px solid var(--border-color)', fontSize: '0.75rem', color: 'var(--text-muted)' }}>
-                Editable in <code className="code-pill">portfolioData.js</code>
-              </div>
+          
             </div>
           ))}
         </div>
@@ -112,10 +110,6 @@ export default function Achievements() {
           }}
         >
           <Edit3 size={22} color="#f59e0b" style={{ flexShrink: 0 }} />
-          <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
-            <strong style={{ color: '#f59e0b' }}>Document Genuine Milestones: </strong>
-            Update <code className="code-pill">achievementsData</code> in <code className="code-pill">src/data/portfolioData.js</code> with any hackathons attended, university project demonstrations, academic recognitions, or peer mentorship roles.
-          </div>
         </div>
 
       </div>

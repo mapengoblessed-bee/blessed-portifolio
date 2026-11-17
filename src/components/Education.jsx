@@ -99,11 +99,7 @@ export default function Education() {
                       <span className={edu.isCurrent ? "badge badge-cyan" : "badge badge-purple"}>
                         {edu.badge}
                       </span>
-                      {edu.isPlaceholder && (
-                        <span className="badge badge-placeholder">
-                          Editable Placeholder
-                        </span>
-                      )}
+                      
                     </div>
 
                     <h3 style={{ fontSize: '1.25rem', color: 'var(--text-primary)' }}>
@@ -215,10 +211,7 @@ export default function Education() {
           }}
         >
           <FileSpreadsheet size={20} color="#f59e0b" style={{ flexShrink: 0 }} />
-          <div>
-            <strong style={{ color: '#f59e0b' }}>To Update Your Academic Records: </strong>
-            Open <code className="code-pill">src/data/portfolioData.js</code> and update the <code className="code-pill">educationData</code> array with your secondary schools, completion years, and actual exam grades.
-          </div>
+          
         </div>
 
       </div>
